@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDictionary", "MyDictionary\MyDictionary.csproj", "{600CBE3D-B8AF-4DE0-A846-CD6524E90579}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DictionaryLogic", "DictionaryLogic\DictionaryLogic.csproj", "{DAAC909F-779F-4BE6-9533-B2AC7BE0D9E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		MyDictionaryyy|Any CPU = MyDictionaryyy|Any CPU
+		MyDictionaryyy|x64 = MyDictionaryyy|x64
+		MyDictionaryyy|x86 = MyDictionaryyy|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{600CBE3D-B8AF-4DE0-A846-CD6524E90579}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{600CBE3D-B8AF-4DE0-A846-CD6524E90579}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{600CBE3D-B8AF-4DE0-A846-CD6524E90579}.Debug|x64.ActiveCfg = Debug|x64
+		{600CBE3D-B8AF-4DE0-A846-CD6524E90579}.Debug|x64.Build.0 = Debug|x64
+		{600CBE3D-B8AF-4DE0-A846-CD6524E90579}.Debug|x86.ActiveCfg = Debug|x86
+		{600CBE3D-B8AF-4DE0-A846-CD6524E90579}.Debug|x86.Build.0 = Debug|x86
+		{600CBE3D-B8AF-4DE0-A846-CD6524E90579}.MyDictionaryyy|Any CPU.ActiveCfg = MyDictionaryyy|Any CPU
+		{600CBE3D-B8AF-4DE0-A846-CD6524E90579}.MyDictionaryyy|Any CPU.Build.0 = MyDictionaryyy|Any CPU
+		{600CBE3D-B8AF-4DE0-A846-CD6524E90579}.MyDictionaryyy|x64.ActiveCfg = MyDictionaryyy|x64
+		{600CBE3D-B8AF-4DE0-A846-CD6524E90579}.MyDictionaryyy|x64.Build.0 = MyDictionaryyy|x64
+		{600CBE3D-B8AF-4DE0-A846-CD6524E90579}.MyDictionaryyy|x86.ActiveCfg = MyDictionaryyy|x86
+		{600CBE3D-B8AF-4DE0-A846-CD6524E90579}.MyDictionaryyy|x86.Build.0 = MyDictionaryyy|x86
+		{600CBE3D-B8AF-4DE0-A846-CD6524E90579}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{600CBE3D-B8AF-4DE0-A846-CD6524E90579}.Release|Any CPU.Build.0 = Release|Any CPU
+		{600CBE3D-B8AF-4DE0-A846-CD6524E90579}.Release|x64.ActiveCfg = Release|x64
+		{600CBE3D-B8AF-4DE0-A846-CD6524E90579}.Release|x64.Build.0 = Release|x64
+		{600CBE3D-B8AF-4DE0-A846-CD6524E90579}.Release|x86.ActiveCfg = Release|x86
+		{600CBE3D-B8AF-4DE0-A846-CD6524E90579}.Release|x86.Build.0 = Release|x86
+		{DAAC909F-779F-4BE6-9533-B2AC7BE0D9E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAAC909F-779F-4BE6-9533-B2AC7BE0D9E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAAC909F-779F-4BE6-9533-B2AC7BE0D9E3}.Debug|x64.ActiveCfg = Debug|x64
+		{DAAC909F-779F-4BE6-9533-B2AC7BE0D9E3}.Debug|x64.Build.0 = Debug|x64
+		{DAAC909F-779F-4BE6-9533-B2AC7BE0D9E3}.Debug|x86.ActiveCfg = Debug|x86
+		{DAAC909F-779F-4BE6-9533-B2AC7BE0D9E3}.Debug|x86.Build.0 = Debug|x86
+		{DAAC909F-779F-4BE6-9533-B2AC7BE0D9E3}.MyDictionaryyy|Any CPU.ActiveCfg = MyDictionaryyy|Any CPU
+		{DAAC909F-779F-4BE6-9533-B2AC7BE0D9E3}.MyDictionaryyy|Any CPU.Build.0 = MyDictionaryyy|Any CPU
+		{DAAC909F-779F-4BE6-9533-B2AC7BE0D9E3}.MyDictionaryyy|x64.ActiveCfg = MyDictionaryyy|x64
+		{DAAC909F-779F-4BE6-9533-B2AC7BE0D9E3}.MyDictionaryyy|x64.Build.0 = MyDictionaryyy|x64
+		{DAAC909F-779F-4BE6-9533-B2AC7BE0D9E3}.MyDictionaryyy|x86.ActiveCfg = MyDictionaryyy|x86
+		{DAAC909F-779F-4BE6-9533-B2AC7BE0D9E3}.MyDictionaryyy|x86.Build.0 = MyDictionaryyy|x86
+		{DAAC909F-779F-4BE6-9533-B2AC7BE0D9E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAAC909F-779F-4BE6-9533-B2AC7BE0D9E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAAC909F-779F-4BE6-9533-B2AC7BE0D9E3}.Release|x64.ActiveCfg = Release|x64
+		{DAAC909F-779F-4BE6-9533-B2AC7BE0D9E3}.Release|x64.Build.0 = Release|x64
+		{DAAC909F-779F-4BE6-9533-B2AC7BE0D9E3}.Release|x86.ActiveCfg = Release|x86
+		{DAAC909F-779F-4BE6-9533-B2AC7BE0D9E3}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
