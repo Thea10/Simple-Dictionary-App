@@ -17,5 +17,7 @@ namespace DictionaryLogic
           
 
         }
+
+        public override string ToString() => $"{searchText} ({searchResult})";
     }
 }

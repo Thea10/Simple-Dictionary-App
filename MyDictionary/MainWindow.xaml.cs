@@ -21,19 +21,20 @@ namespace MyDictionary
     /// </summary>
     public partial class MainWindow : Window
     {
-        public SearchLogic SearchLogic  = new SearchLogic();
+        private SearchLogic SearchLogic { get; set; } = new SearchLogic();
         public string SearchString { get; set; }
         public MainWindow()
         {
             InitializeComponent();
         }
 
-        private void Dictionary_App_Loaded(object sender, RoutedEventArgs e)
+        private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            
+            SearchLogic.checkForExistingData();
+            this.DataContext = SearchLogic;    
         }
 
-      
+    
 
         private void searchBox_TextChanged(object sender, TextChangedEventArgs e)
         {
@@ -42,34 +43,49 @@ namespace MyDictionary
 
         private async void searchButton_Click(object sender, RoutedEventArgs e)
         {
-            if (SearchString == null || SearchString == " ")
+
+            if (string.IsNullOrWhiteSpace(SearchString))
             {
                 searchStringBox.Text = "Please type in a word";
+                return;
             }
+
             else
             {
                 try
                 {
-                   var search =  await SearchLogic.CheckWord(SearchString);
-                   // SearchLogic.HistoryList.Add(SearchString, search);
+
+                    var search = await SearchLogic.CheckWord(SearchString);
+                    //   this.SearchLogic.HistoryList.Add(SearchString, search);
 
                     searchStringBox.Text = SearchString;
-                   searchResultBox.Text = search;
-                   
+                    searchResultBox.Text = search;
+
+                    this.lblsearchhistory.ItemsSource = SearchLogic.HistoryList.Values;
+                    this.lblsearchhistory.Items.Refresh();
+                  
                 }
                 catch (Exception ex)
                 {
                     searchResultBox.Text = ex.Message;
                     Console.WriteLine(ex);
                 }
-              
+
             }
+           
+              
+            
 
         }
 
         private void allItems_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
 
+
+        }
+
+        private void lblsearchhistory_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
 
         }
     }
